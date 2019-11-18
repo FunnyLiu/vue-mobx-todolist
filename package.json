@@ -1,0 +1,38 @@
+{
+  "name": "vue-mobx-todolist",
+  "version": "1.0.0",
+  "description": "基于vue和mobx的todolist",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunnyLiu/vue-mobx-todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FunnyLiu/vue-mobx-todolist/issues"
+  },
+  "homepage": "https://github.com/FunnyLiu/vue-mobx-todolist#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "mobx": "^5.15.0",
+    "mobx-vue": "^2.0.10",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5",
+    "vue": "^2.6.10"
+  }
+}
